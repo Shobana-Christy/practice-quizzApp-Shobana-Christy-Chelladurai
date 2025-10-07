@@ -67,7 +67,7 @@ choiceButtons.forEach((btn, i) => {
     });
 });
 
-// define next question button click handler
+// defining next question button click handler
 nextQuestionButton.addEventListener("click", () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
